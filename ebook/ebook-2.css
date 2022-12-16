@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#hero {
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://media.istockphoto.com/id/1126130554/photo/row-of-old-books-with-colorful-covers-on-pastel-blue-background-education-concept-mock-up-for.jpg?b=1&s=170667a&w=0&k=20&c=OBpTIx7MWP_Ohi4_IvOPNPyRc9uPmTdq_lHKdoE4dmk=);
+    background-color: bisque;
+    background-size: cover;
+    background-position: center;
+}
+
+section nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px orange;
+    background: whitesmoke;
+    background-image: url(https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=2000);
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+
+section nav .logo img {
+    width: 110px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+section nav ul {
+    list-style: armenian;
+}
+
+section nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a {
+    background: orange;
+    border-style: outset;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black
+}
+
+section nav li a:hover {
+    color: honeydew;
+}
+
+section .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 20%;
+}
+
+section .main h1 {
+    position: relative;
+    font-size: 55px;
+    top: 80px;
+    left: 25px;
+}
+
+section .main h1 span {
+    color: brown;
+}
+
+section .main p {
+    width: 650px;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 125px;
+    left: 25px;
+}
+
+section .main .main_tag .main_btn {
+    background: orange;
+    padding: 10px 20px;
+    position: relative;
+    top: 200px;
+    left: 25px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+section .main .main_img img {
+    width: 600px;
+    position: relative;
+    top: 200px;
+    left: 10px;
+    bottom: 100px;
+}
+
+.services {
+    display: flex;
+    width: 100;
+    height: auto;
+    margin: 35px 0;
+}
+
+.services .services_box {
+    width: 100%;
+    padding: 40px 15px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .services_box .services_card {
+    text-align: center;
+    width: 15%;
+    height: 200px;
+    box-shadow: 0 0 20px orange;
+    padding: 25px 35px;
+}
+
+.services .services_box .services_card {
+    color: navy;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.services .services_box .services_card h3 {
+    margin-bottom: 10px;
+}
+
+#head {
+    text-align: center;
+    padding: 20px;
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#products {
+    text-align: center;
+    padding: 40px 40px;
+}
+
+#products .pro-container {
+    display: flex;
+    padding: 50px;
+    height:500px;
+    justify-content: space-between;
+    box-shadow: none;
+}
+
+#products .pro {
+    min-width: 220px;
+    height: 450px;
+    padding: 0 0;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 30px 30px 30px powderblue;
+    margin: 2px;
+}
+
+#products .pro img {
+    width: 230px;
+    border-radius: 2px;
+
+}
+
+#products {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
